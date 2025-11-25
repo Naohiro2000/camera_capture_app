@@ -45,10 +45,10 @@ camera_capture_app/
 ├── .venv/                 # Virtual environment (created during setup)
 └── imgs/                  # Image assets
     └──  meme/              # Meme version images
-        ├── index_finger.jpg
-        ├── middle_finger.jpg
-        ├── thumb_up.jpeg
-        └── tongue_out.png
+         ├── index_finger.jpg
+         ├── middle_finger.jpg
+         ├── thumb_up.jpeg
+         └── tongue_out.png
 
 ```
 
@@ -88,4 +88,4 @@ camera_capture_app/
 
 ## License
 
-MIT
+NAOPON
