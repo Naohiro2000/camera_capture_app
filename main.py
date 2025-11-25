@@ -20,16 +20,16 @@ def main():
     )
 
     # アホな日本人バージョン
-    # index_img_path = "imgs/index_finger.png"
-    # middle_img_path = "imgs/middle_finger.png"
-    # thumb_img_path = "imgs/thumb_up.png"
-    # tongue_img_path = "imgs/tongue_out.png"
+    # index_img_path = "imgs/private/index_finger.png"
+    # middle_img_path = "imgs/private/middle_finger.png"
+    # thumb_img_path = "imgs/private/thumb_up.png"
+    # tongue_img_path = "imgs/private/tongue_out.png"
     
     # Memeバージョン
-    index_img_path = "imgs/meme_index_finger.jpg"
-    middle_img_path = "imgs/meme_middle_finger.jpg"
-    thumb_img_path = "imgs/meme_thumb_up.jpeg"
-    tongue_img_path = "imgs/meme_tongue_out.png"
+    index_img_path = "imgs/meme/index_finger.jpg"
+    middle_img_path = "imgs/meme/middle_finger.jpg"
+    thumb_img_path = "imgs/meme/thumb_up.jpeg"
+    tongue_img_path = "imgs/meme/tongue_out.png"
     
     index_image = cv2.imread(index_img_path)
     middle_image = cv2.imread(middle_img_path)

@@ -1,4 +1,3 @@
-# camera_capture_app
 # Camera Capture App
 
 A fun gesture-recognition app using OpenCV and MediaPipe that displays meme images based on your hand gestures and facial expressions!
@@ -38,15 +37,19 @@ A fun gesture-recognition app using OpenCV and MediaPipe that displays meme imag
 
 ```
 camera_capture_app/
-├── main.py                      # Main application
-├── requirements.txt             # Python dependencies
-├── README.md                    # This file
-├── .venv/                       # Virtual environment (created during setup)
-└── imgs/                        # Image assets
-    ├── meme_index_finger.jpg    # Index finger meme
-    ├── meme_middle_finger.jpg   # Middle finger meme
-    ├── meme_thumb_up.jpeg       # Thumbs up meme
-    └── meme_tongue_out.png      # Tongue out meme
+├── main.py                  # Main application
+├── main_im.py              # Alternative implementation
+├── requirements.txt        # Python dependencies
+├── README.md              # This file
+├── .gitignore             # Git ignore rules
+├── .venv/                 # Virtual environment (created during setup)
+└── imgs/                  # Image assets
+    └──  meme/              # Meme version images
+        ├── index_finger.jpg
+        ├── middle_finger.jpg
+        ├── thumb_up.jpeg
+        └── tongue_out.png
+
 ```
 
 ## Usage
@@ -84,4 +87,5 @@ camera_capture_app/
 - Face detection works best when facing the camera directly
 
 ## License
-NAOPON
+
+MIT
