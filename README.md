@@ -38,7 +38,6 @@ A fun gesture-recognition app using OpenCV and MediaPipe that displays meme imag
 ```
 camera_capture_app/
 ├── main.py                  # Main application
-├── main_im.py              # Alternative implementation
 ├── requirements.txt        # Python dependencies
 ├── README.md              # This file
 ├── .gitignore             # Git ignore rules
