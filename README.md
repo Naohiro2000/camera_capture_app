@@ -84,5 +84,4 @@ camera_capture_app/
 - Face detection works best when facing the camera directly
 
 ## License
-
-MIT
+NAOPON
