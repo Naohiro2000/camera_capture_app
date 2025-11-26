@@ -19,7 +19,7 @@ def main():
         min_tracking_confidence=0.5
     )
 
-    # アホな日本人バージョン
+    # 開発者のプライベート画像パス
     # index_img_path = "imgs/private/index_finger.png"
     # middle_img_path = "imgs/private/middle_finger.png"
     # thumb_img_path = "imgs/private/thumb_up.png"
